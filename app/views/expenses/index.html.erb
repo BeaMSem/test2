@@ -1,0 +1,256 @@
+<style>
+
+  body{
+    font-family: "Open Sans";
+  }
+
+  /*NUMBERS*/
+  .number_table_list{
+      /*border: 1px solid deeppink;*/
+      /*padding: 2px;*/
+      /*margin: 2px;*/
+      display : flex;
+      flex-flow: row;
+      color:white;
+    font-size: 1em;
+    font-weight: 300;
+  }
+  .number_table_single{
+      /*border: 1px solid deepskyblue;*/
+      /*padding: 2px;*/
+      /*margin: 2px;*/
+      flex: 1;
+      padding: 25px 20px;
+    border-radius: 2px;
+    margin: 0.5em;
+  }
+  .number_table_top_component{
+    /*border: 1px solid green;*/
+    /*padding: 2px;*/
+    /*margin: 2px;*/
+    padding-bottom: 0.25em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  }
+  .number_table_bottom_component{
+    /*border: 1px solid darkgreen;*/
+    /*padding: 2px;*/
+    /*margin: 2px;*/
+    padding-top: 0.25em;
+  }
+  .number_table_bottom_component .number{
+    /*border: 1px solid deeppink;*/
+    /*padding: 2px;*/
+    /*margin: 2px;*/
+    display : flex;
+    flex-flow: row;
+  }
+  .number_table_top_component .number{
+    /*border: 1px solid #e14a3b;*/
+    /*padding: 2px;*/
+    /*margin: 2px;*/
+    display : flex;
+    flex-flow: column;
+
+  }
+  .number_amount{
+    /*border: 1px solid deeppink;*/
+    font-size: 0.95em;
+    font-weight: 400;
+    flex: 2;
+  }
+  .number_title{
+    /*border: 1px solid deeppink;*/
+    font-size: 0.95em;
+    opacity: 0.65;
+    padding-right: 1em;
+    font-weight: 400;
+    flex: 1;
+  }
+  .number_table_top_component .number .number_amount{
+    font-size: 2.8em;
+  }
+
+  /*RECORD  */
+  .list_record{
+    flex: 1;
+    display : flex;
+    flex-flow: column;
+    background: #eaeaea;
+    border: 1px solid green;
+    padding: 50px 10px 20px 10px;
+  }
+  .single_record{
+    border: 1px solid hotpink;
+    padding: 10px;
+
+    flex: 1;
+    display : flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    background: white;
+  }
+  .single_record_data{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    display : flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    flex: 3;
+  }
+  .single_record_buttons{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    display : flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+  }
+  .single_record_name{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 3;
+    display : flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+  }
+  .single_record_quantity{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 1;
+     display : flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .single_record_amount{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 2;
+     display : flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .single_record_payment_method{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 2;
+    display : flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .single_record_date{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 3;
+    display : flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .single_record_shop{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 2;
+    display : flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  /*FORM*/
+  .records_form{
+      border: 1px solid orangered;
+      padding: 2px;
+      margin: 2px;
+      flex: 1;
+      display : flex;
+      flex-flow: row;
+  }
+  .payment_method_buttons{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    flex: 1;
+    display : flex;
+    flex-flow: row;
+  }
+  /*SHOPICONS*/
+  .shop_icon {
+      width: 2em;
+      height: 2em;
+      border-radius: 2px;
+
+      color: white;
+
+      display : flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+  }
+  .list_shop_icon{
+    border: 1px solid orangered;
+    padding: 2px;
+    margin: 2px;
+    display : flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+  }
+  .ms{
+      background-color: #2E2F30;
+  }
+  .sainsbury{
+      background-color: #ff8c00;
+  }
+  .tesco{
+      background-color: #2E41A9;
+  }
+  .waitrose{
+      background-color: #165716;
+  }
+  .other{
+      background-color: #818284;
+  }
+
+
+
+
+
+
+</style>
+
+
+<%= react_component 'NumberTableList', { budget_entities: @budget_entities} %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

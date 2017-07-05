@@ -1,0 +1,92 @@
+
+<style>
+  .category_all{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+  }
+  .category_single{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+  }
+  .category_single .title{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+    flex: 1;
+  }
+  .subcategory_all{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+    flex: 3;
+  }
+  .subcategory_single{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+  }
+  .subcategory_form{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+  }
+  .subcategory_form_button{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+
+  }
+  .setting_all{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+  }
+  .setting_single{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .setting_single div{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+  }
+  .subcategory_form_wrapper{
+    border: 1px solid lightgray;
+    padding: 2px;
+    margin: 1px;
+  }
+
+  input[type=button]{
+    background : white;
+    margin: 0;
+    padding: 0;
+    border: 1px solid pink
+  }
+
+    /*NUMBER TABLE*/
+
+
+
+
+</style>
+
+<%= react_component 'SubcategorySingle', {settings: @settings} %>
+
+
+  <a href="#">Create Budget</a>
+
+<!--</div>-->
